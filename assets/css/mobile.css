@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@media (max-width: 320px) {
+    
+    /* HEADER CSS */
+    .header-container nav {
+        display: none;
+    }
+
+    .header-container img {
+        margin-left: -20px;
+    }
+
+    /* BANNER CSS */
+    .banner {
+        width: 100vw;
+    }
+
+    .banner h1,
+    .banner p {
+        font-size: 23px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+    /* HEADER CSS */
+    .header-container nav {
+        display: none;
+    }
+
+    .header-container img {
+        margin-left: -20px;
+    }
+
+    /* BANNER CSS */
+    .banner {
+        width: 100vw;
+    }
+
+    .banner h1,
+    .banner p {
+        font-size: 26px;
+        text-align: center;
+    }
+}
