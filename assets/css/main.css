@@ -90,3 +90,16 @@ h2 {
 .chefs h2 {
     color: #444;
 }
+
+
+
+/* SECTION CONTATO */
+textarea {
+    width: 400px;
+    height: 150px;
+    resize: none;
+}
+
+input [type='submit'] {
+    width: 500px;
+}
