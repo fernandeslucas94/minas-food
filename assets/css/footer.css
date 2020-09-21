@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 33px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #444;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:visited {
+    color: #444;
+}
