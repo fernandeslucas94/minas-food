@@ -2,8 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
+
+/* PAGE CONTAINER */
+.container {
+
+}
+
+
+/* SECTION PATTERNS */
+section {
+    padding: 33px;
+}
+
+
+/* BANNER CSS */
 .banner {
     background-image: url(../images/comida-mineira2.png);
     width: 100vw;
@@ -31,4 +46,43 @@
 .banner-rgba p {
     color: #FFF;
     font-size: 33px;
+}
+
+
+
+
+/* SECTION CULINARIA */
+.culinaria {
+    color: #444;
+    padding: 33px;
+}
+
+.underline {
+    background-color: brown;
+    height: 3px;
+    width: 111px;
+}
+
+
+/* SECTION NOSSOS SERVICOS */
+.nossos-servicos {
+    background-color: brown;
+}
+
+.nossos-servicos h2 {
+    color: #fff;
+}
+
+.nossos-servicos .underline {
+    background-color: #777;
+}
+
+.nossos-servicos p {
+    color: #ccc;
+}
+
+
+/* SECTION CHEFS */
+.chefs h2 {
+    color: #444;
 }
