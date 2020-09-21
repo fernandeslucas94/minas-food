@@ -9,12 +9,29 @@
 .header-container {
     background-color: brown;
     height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container nav {
+    margin-right: 30px;
+}
+
+.header-container nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.header-container nav a:hover {
+    text-decoration: underline;
 }
 
 .header-container img {
     height: 150px;
     width: 200px;
-    margin-top: -55px;
+    margin-top: -16px;
 }
 
 .banner {
