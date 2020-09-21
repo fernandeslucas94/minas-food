@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-image: url(../images/comida-mineira2.png);
+    width: 100vw;
+    height: 420px;
+}
+
+.banner-rgba {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-rgba h1 {
+    font-weight: 600;
+}
+
+.banner-rgba p {
+    font-weight: 400;
+}
+
+.banner-rgba h1,
+.banner-rgba p {
+    color: #FFF;
+    font-size: 33px;
+}
