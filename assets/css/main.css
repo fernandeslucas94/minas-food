@@ -25,7 +25,7 @@ h2 {
 /* BANNER CSS */
 .banner {
     background-image: url(../images/comida-mineira2.png);
-    width: 1351px;
+    width: 100vw;
     height: 420px;
 }
 
@@ -103,4 +103,52 @@ textarea {
 .texto {
     width: 400px;
     height: 30px;
+}
+
+
+
+
+/* DOCES PAGE */
+.container-doces {
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    width: 85vw;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+
+    padding: 80px;
+
+
+}
+
+#goiabada {
+    width: 200px;
+    height: 100px;
+    margin-right: 16px;
+    margin-bottom:3px;
+    margin-top: 10px;
+}
+
+.content-container h2 {
+    margin-bottom: 5px;
+}
+
+
+.content-container p {
+    margin-bottom: 10px;
+}
+
+.botao-carrinho {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #777;
+    background-color: #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
 }
