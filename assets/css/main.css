@@ -112,7 +112,10 @@ textarea {
 .container-doces {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 .content-container {
     width: 85vw;
