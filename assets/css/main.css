@@ -167,3 +167,61 @@ textarea {
 #frete {
     text-align: center;
 }
+
+
+/* CARRINHO PAGE */
+
+.container-checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.content-box {
+    width: 75vw;
+    height: 43vh;
+
+    background-color: #eee;
+
+    border: 1px solid #000;
+}
+
+.content-box-header {
+    width: 990px;
+    height: 46px;
+
+    display: flex;
+
+    background-color:#ccc;
+
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.content-box-header .produto {
+    flex: 3;
+}
+
+.content-box-header .preco {
+    flex: 1;
+}
+
+.content-box-header .quantidade {
+    flex: 1;
+}
+
+.content-box-header .total {
+    flex: 1;
+}
+
+.content-box-header .produto,
+.content-box-header .preco,
+.content-box-header .quantidade,
+.content-box-header .total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
