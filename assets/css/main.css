@@ -181,7 +181,7 @@ textarea {
 }
 
 .content-box {
-    width: 75vw;
+    width: 74.9vw;
     height: 43vh;
 
     background-color: #eee;
@@ -190,7 +190,7 @@ textarea {
 }
 
 .content-box-header {
-    width: 990px;
+    width: 74.8vw;
     height: 46px;
 
     display: flex;
