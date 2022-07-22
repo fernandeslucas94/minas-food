@@ -1,2 +1,3 @@
 ###
-This project, is a website for a restaurant called 'Minas Food'. Minas are a state in Brazil.
+
+Este projeto foi desenvolvido com finalidade de praticar HTML, CSS e Javascript
